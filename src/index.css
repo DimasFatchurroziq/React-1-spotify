@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --base-black: #181818;
+  --base-pink: #EE10B0; 
+}
+
+html, body {
+  height: 100%;
+  background-color: var(--base-pink); /* Warna latar belakang utama */
+}
+
+.layout {
+  display: flex;
+  height: 100vh; /* Membuat layout memenuhi tinggi layar */
+  gap: 3px; /* Jarak antara sidebar dan content */
+  
+}
+
+.sidebar {
+  width: 250px; /* Atur lebar sidebar */
+  background: var(--base-black); /* Warna sidebar */
+  color: white;
+  padding: 20px;
+}
+
+.content {
+  flex: 1; /* Agar konten utama menyesuaikan sisa ruang */
+  background: var(--base-black); /* Warna konten utama */
+  padding: 20px;
+}
