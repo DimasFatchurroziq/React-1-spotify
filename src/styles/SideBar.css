@@ -1,6 +1,67 @@
+  :root {
+    --base-black: #181818;
+    --base-pink-1: #EE10B0;
+    --base-pink-2: #EE10B0; 
+  }
+
+  .logo{
+    /* background-color: red; bgasli */
+    position: relative;
+    bottom: 10px;
+  }
+
 .sidebar-wrapper {
     position: relative;
-    background-color: aliceblue;
+    /* background-color: rebeccapurple; bgasli */
     padding: 20px;
-    
 }
+
+.sidebar-container {
+    /* background-color: white; bgasli */
+    /* position: relative; */
+    /* border: 10px solid black; */
+    padding: 10px;
+}
+
+.menu-section{
+    margin-bottom: 20px;
+}
+
+.menu-section h2{
+    color: var(--base-pink-2);
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.menu-section ul{
+    list-style-type: none;
+}
+
+.btn {
+    display: flex;
+    align-items: center;  /* Ikon dan teks sejajar */
+    gap: 10px; /* Jarak antara ikon dan teks */
+    background-color: var(--base-black);
+    color: white;
+    border: none;
+    padding: 10px 0 10px 10px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 175px;
+}
+
+.btn img {
+    /* background-color: white; */
+    color: white;
+    height: 20px;
+}
+
+.btn span {
+    font-size: 16px; /* Ukuran ikon */
+    /* background-color: black; bgasli */
+    /* border-width: 200px; */
+}
+
+
